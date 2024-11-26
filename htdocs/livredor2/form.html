@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Livre d'Or</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Livre d'Or</h1>
+        <form action="inserer.php" method="POST">
+            <div class="form-group">
+                <label for="pseudo">Pseudo :</label>
+                <input type="text" id="pseudo" name="pseudo" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="texte">Message :</label>
+                <textarea id="texte" name="texte" required></textarea>
+            </div>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
